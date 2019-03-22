@@ -1,0 +1,89 @@
+.main
+{
+	background-color: red;
+	margin: auto;
+	width: 800px;
+	height: 1000px;
+
+}
+.one
+{
+	background-color: blue;
+	float:left;
+	width: 760px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+
+	
+}
+
+
+.two {
+	background-color: blue;
+	float:left;
+	width: 240px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+}
+.three {
+	background-color: blue;
+	float:left;
+	width: 240px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.four{
+	background-color: blue;
+	float:left;
+	width: 240px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.five {
+	background-color: blue;
+	float:left;
+	width: 240px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+.six {
+	background-color: blue;
+	float:left;
+	width: 380px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+.seven {
+	background-color: blue;
+	float:left;
+	width: 360px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+
+@media screen and (max-width:800px)
+{
+    .one
+    {
+        width: 100px;
+    }
+}
