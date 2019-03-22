@@ -1,0 +1,51 @@
+<html>
+    <head>Normal Form</head>
+    <script>
+    function userinput(a,b)
+        {
+           // var a = document.getElementById("one").value*1;
+           // var b = document.getElementById("two").value*1;
+          
+            var a = parseInt(document.getElementById("one").value);
+            var b = parseInt(document.getElementById("two").value);
+            var c = document.getElementById("drop").value;
+            if(c=="Add"){
+                var total = a+b;
+                alert(total);
+            }
+            if(c=="Sub"){
+                var total = a-b;
+                alert(total);
+            }
+            if(c=="Multiply"){
+                var total = a*b;
+                alert(total);
+            }
+        }
+        
+    </script>
+    <body>
+        <form>
+            <p>
+            Enter a first number<input type="text" id="one" />
+            </p>
+            <p>
+            Enter a second number<input type="text" id="two" />
+            </p>
+            <p>
+            <select id="drop">
+            <option>Add</option>
+            <option>Sub</option>
+            <option>Multiply</option>
+            </select>
+            </p>
+            <p>
+            <button onclick="userinput()">
+                Click
+            </button>
+                
+            </p>
+        
+        </form>
+    </body>
+</html>
